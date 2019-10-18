@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>12 TET Nesting Visualizer</title>
+  </head>
+
+  <body>
+<!--
+    <button href="showMeThe12sAnd11s()">showThe12sAnd11s</button>
+    <button href="showMeThe12sAnd10s()">showThe12sAnd10s</button>
+    <button href="showMeThe12sAnd9s()">showThe12sAnd9s</button>
+    <button href="showMeThe12sAnd8s()">showThe12sAnd8s</button>
+    <button href="showMeThe12sAnd7s()">showThe12sAnd7s</button>
+    <button href="showMeThe12sAnd6s()">showThe12sAnd6s</button>
+    <button href="showMeThe12sAnd5s()">showThe12sAnd5s</button>
+    <button href="showMeThe12sAnd4s()">showThe12sAnd4s</button>
+    <button href="showMeThe12sAnd3s()">showThe12sAnd3s</button>
+    <button href="showMeThe12sAnd2s()">showThe12sAnd2s</button>
+    <button href="showMeThe12sAnd1s()">showThe12sAnd1s</button>
+
+    <button href="showMeThe11sAnd10s()">showThe11sAnd10s</button>
+    <button href="showMeThe11sAnd9s()">showThe11sAnd9s</button>
+    <button href="showMeThe11sAnd8s()">showThe11sAnd8s</button>
+    <button href="showMeThe11sAnd7s()">showThe11sAnd7s</button>
+    <button href="showMeThe11sAnd6s()">showThe11sAnd6s</button>
+    <button href="showMeThe11sAnd5s()">showThe11sAnd5s</button>
+    <button href="showMeThe11sAnd4s()">showThe11sAnd4s</button>
+    <button href="showMeThe11sAnd3s()">showThe11sAnd3s</button>
+    <button href="showMeThe11sAnd2s()">showThe11sAnd2s</button>
+    <button href="showMeThe11sAnd1s()">showThe11sAnd1s</button>
+
+    <button href="showMeThe10sAnd9s()">showThe10sAnd9s</button>
+    <button href="showMeThe10sAnd8s()">showThe10sAnd8s</button>
+    <button href="showMeThe10sAnd7s()">showThe10sAnd7s</button>
+    <button href="showMeThe10sAnd6s()">showThe10sAnd6s</button>
+    <button href="showMeThe10sAnd5s()">showThe10sAnd5s</button>
+    <button href="showMeThe10sAnd4s()">showThe10sAnd4s</button>
+    <button href="showMeThe10sAnd3s()">showThe10sAnd3s</button>
+    <button href="showMeThe10sAnd2s()">showThe10sAnd2s</button>
+    <button href="showMeThe10sAnd1s()">showThe10sAnd1s</button>
+
+    <button href="showMeThe9sAnd8s()">showThe9sAnd8s</button>
+    <button href="showMeThe9sAnd7s()">showThe9sAnd7s</button>
+    <button href="showMeThe9sAnd6s()">showThe9sAnd6s</button>
+    <button href="showMeThe9sAnd5s()">showThe9sAnd5s</button>
+    <button href="showMeThe9sAnd4s()">showThe9sAnd4s</button>
+    <button href="showMeThe9sAnd3s()">showThe9sAnd3s</button>
+    <button href="showMeThe9sAnd2s()">showThe9sAnd2s</button>
+    <button href="showMeThe9sAnd1s()">showThe9sAnd1s</button>
+
+    <button href="showMeThe8sAnd7s()">showThe8sAnd7s</button>
+    <button href="showMeThe8sAnd6s()">showThe8sAnd6s</button>
+    <button href="showMeThe8sAnd5s()">showThe8sAnd5s</button>
+    <button href="showMeThe8sAnd4s()">showThe8sAnd4s</button>
+    <button href="showMeThe8sAnd3s()">showThe8sAnd3s</button>
+    <button href="showMeThe8sAnd2s()">showThe8sAnd2s</button>
+    <button href="showMeThe8sAnd1s()">showThe8sAnd1s</button>
+
+    <button href="showMeThe7sAnd6s()">showThe7sAnd6s</button>
+    <button href="showMeThe7sAnd5s()">showThe7sAnd5s</button>
+    <button href="showMeThe7sAnd4s()">showThe7sAnd4s</button>
+    <button href="showMeThe7sAnd3s()">showThe7sAnd3s</button>
+    <button href="showMeThe7sAnd2s()">showThe7sAnd2s</button>
+    <button href="showMeThe7sAnd1s()">showThe7sAnd1s</button>
+
+    <button href="showMeThe6sAnd5s()">showThe6sAnd5s</button>
+    <button href="showMeThe6sAnd4s()">showThe6sAnd4s</button>
+    <button href="showMeThe6sAnd3s()">showThe6sAnd3s</button>
+    <button href="showMeThe6sAnd2s()">showThe6sAnd2s</button>
+    <button href="showMeThe6sAnd1s()">showThe6sAnd1s</button>
+
+    <button href="showMeThe5sAnd4s()">showThe5sAnd4s</button>
+    <button href="showMeThe5sAnd3s()">showThe5sAnd3s</button>
+    <button href="showMeThe5sAnd2s()">showThe5sAnd2s</button>
+    <button href="showMeThe5sAnd1s()">showThe5sAnd1s</button>
+
+    <button href="showMeThe4sAnd3s()">showThe4sAnd3s</button>
+    <button href="showMeThe4sAnd2s()">showThe4sAnd2s</button>
+    <button href="showMeThe4sAnd1s()">showThe4sAnd1s</button>
+
+    <button href="showMeThe3sAnd2s()">showThe3sAnd2s</button>
+    <button href="showMeThe3sAnd1s()">showThe3sAnd1s</button>
+
+    <button href="showMeThe2sAnd1s()">showThe2sAnd1s</button>
+-->
+
+    <div id="user-greeting">Welcome back, user</div>
+    <div id="container">A container of all 12-TET modes:</div>
+
+  <script type="text/javascript" src="nestingGuide.js"></script>
+  </body>
+</html>
